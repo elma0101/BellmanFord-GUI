@@ -8,6 +8,7 @@ import java.util.List;
 class Edge {
     public final Node start, end;
     public int value;
+    public String color ="black";
 
     public Edge(Node start, Node end,int value) {
         this.start = start;
@@ -19,7 +20,12 @@ class Edge {
 
         int arrowSize = 5;
 
-        g.setColor(Color.BLACK);
+        //draw line
+        if (color.equals("red")) {
+            g.setColor(Color.RED);
+        } else {
+            g.setColor(Color.BLACK);
+        }
         g.drawLine(start.x, start.y, end.x, end.y);
 
         //draw arrow head

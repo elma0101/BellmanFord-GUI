@@ -93,7 +93,7 @@ public class GraphApp extends JFrame {
 
 
 
-        Detailsbutton.setVisible(true);
+
         Detailsbutton.setBounds(0, 0, 100, 30);
 
 

@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/src/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GraphApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/GraphPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,8 @@
       <workItem from="1731017472449" duration="5345000" />
       <workItem from="1731052369583" duration="2767000" />
       <workItem from="1731057549563" duration="7683000" />
-      <workItem from="1731098907090" duration="10329000" />
+      <workItem from="1731098907090" duration="10781000" />
+      <workItem from="1731175270739" duration="4974000" />
     </task>
     <servers />
   </component>

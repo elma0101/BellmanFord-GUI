@@ -16,9 +16,8 @@ class GraphPanel extends JPanel {
     int counter=0;
 
     public GraphPanel() {
+
         setBackground(Color.WHITE);
-
-
 
         addMouseListener(new MouseAdapter() {
             @Override
@@ -102,8 +101,8 @@ class GraphPanel extends JPanel {
     }
 
     public void afficherChemin(int[] predecesseur, int j, Graphics g) {
-        //reset previous color
-        g.setColor(Color.BLACK);
+
+
 
         if (predecesseur[j] == -1) {
             return;
@@ -113,8 +112,14 @@ class GraphPanel extends JPanel {
         // Color the optimal path
         Node startNode = nodes.get(predecesseur[j]);
         Node endNode = nodes.get(j);
-        g.setColor(Color.RED); // Set the color for the optimal path
-        g.drawLine(startNode.x, startNode.y, endNode.x, endNode.y);
+        for (Edge edge : edges) {
+            if (edge.start == startNode && edge.end == endNode) {
+                edge.color = "red";
+                break;
+            }
+        }
+
+        
     }
 
     private void drawGrid(Graphics g) {
@@ -157,7 +162,9 @@ class GraphPanel extends JPanel {
         //Source node is always 0
         String source = map.get(0);
 
-
+        for (Edge edge : edges) {
+            edge.color = "black";
+        }
 
 
         //Ask for the destination node
@@ -256,17 +263,13 @@ class GraphPanel extends JPanel {
 
         // Display the shortest path distances from the source node when clicking on a button on the top left corner
 
-
-
-
         Graphics g = getGraphics();
+        //colorer le chemin optimal
+
+
         afficherChemin(predecesseur, destinationIndex, g);
+        repaint();
 
-
-
-
-
-        //clear distances
 
     }
 
@@ -279,6 +282,7 @@ class GraphPanel extends JPanel {
         counter=0;
         distances = null;
         predecesseur = null;
+
 
 
         repaint();
