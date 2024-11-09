@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93289aeb-d570-43a8-bc2a-5d381d40e6dd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BellmanFordGUI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Edge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GraphPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GraphPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GraphPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +67,12 @@
       <option name="presentableId" value="Default" />
       <updated>1730917473434</updated>
       <workItem from="1730917474570" duration="4423000" />
-      <workItem from="1730977111357" duration="1302000" />
+      <workItem from="1730977111357" duration="3187000" />
+      <workItem from="1730985648397" duration="7252000" />
+      <workItem from="1731017472449" duration="5345000" />
+      <workItem from="1731052369583" duration="2767000" />
+      <workItem from="1731057549563" duration="7683000" />
+      <workItem from="1731098907090" duration="10329000" />
     </task>
     <servers />
   </component>

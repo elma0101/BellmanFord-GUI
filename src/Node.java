@@ -17,10 +17,12 @@ class Node {
     }
 
     public void draw(Graphics g) {
-        g.setColor(Color.BLUE);
+        g.setColor(Color.yellow);
         g.fillOval(x - RADIUS / 2, y - RADIUS / 2, RADIUS, RADIUS);
         g.setColor(Color.BLACK);
         g.drawOval(x - RADIUS / 2, y - RADIUS / 2, RADIUS, RADIUS);
+
+
     }
 
     public boolean contains(Point p) {
