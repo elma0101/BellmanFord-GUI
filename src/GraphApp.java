@@ -9,12 +9,16 @@ public class GraphApp extends JFrame {
     private final JButton calculateButton = new JButton("Calculer PPC");
     private final JButton resetButton = new JButton("Réinitialiser");
     private JButton Detailsbutton = new JButton("Details");;
+    ImageIcon icon = new ImageIcon("C:/Users/J.P.M/Downloads/icon.png");
+
 
     public GraphApp() {
         super("Bellman-Ford");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(800, 600);
 
+
+        setIconImage(icon.getImage());
 
 
         //center the frame

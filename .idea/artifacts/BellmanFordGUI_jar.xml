@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="BellmanFordGUI:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/BellmanFordGUI_jar</output-path>
+    <root id="archive" name="BellmanFordGUI.jar">
+      <element id="module-output" name="BellmanFordGUI" />
+    </root>
+  </artifact>
+</component>
